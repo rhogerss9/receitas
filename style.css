@@ -95,3 +95,28 @@ hr {
     border: 1px solid #e3ddd7;
     margin-block: 32px;
 }
+
+.modo li::marker {
+    font-weight: 700;
+}
+
+.informaçoes p {
+    margin-bottom: 24px;
+}
+
+table {
+    width: 100%;
+}
+
+th,td {
+    border-bottom: 1px solid #e3ddd7;
+    width: 100%;
+}
+
+tr {
+    display: flex;
+    padding-left: 32px;
+    font-weight: 400;
+    color: #5f564d;
+    line-height: 150%;
+}
